@@ -56,7 +56,34 @@ export SZ_HOME=/opt/SZ  // modify the path based on your system
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$SZ_HOME/install/lib
 ```
 
-### Step 2: Download and prepare dataset
+### Step 2: Compile Caffe for COMET
+
+First, modify the link_directories in **CMakeLists.txt** (line 73 & 74) to your SZ include ($SZ_HOME/install/include) and lib ($SZ_HOME/install/lib) location, respectively.
+
+```
+cd $CAFFE_HOME
+vim ./CMakeLists.txt
+```
+
+Then, modify the location to your sz configuration file in **conv_layer.cpp** (line 61) to $SZ_HOME/example/sz.config.
+
+```
+cd $CAFFE_HOME
+vim ./src/caffe/layers/conv_layer.cpp
+```
+
+Finally, follow the instructions in https://github.com/BVLC/caffe to install prerequisites, modify the configurations based on your system, and compile and install Caffe with CMake.
+
+```
+cd $CAFFE_HOME
+mkdir build && cd build
+cmake .. -DCMAKE_INSTALL_PREFIX:PATH=[INSTALL_DIR]
+make all
+make install
+make runtest
+```
+
+### Step 3: Download and prepare dataset
 
 First, Download and prepare the ImageNet dataset following the instructions shown in https://github.com/BVLC/caffe; or follow the below steps to download the [Stanford Dog dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/main.html) and create its lmdb data format. The Stanford Dogs dataset is smaller than ImageNet for easy test. 
 
@@ -105,33 +132,6 @@ Run the script to create the compute the mean with the following command:
 ```
 cd ../../examples/dogs
 source ./make_dogs_mean.sh
-```
-
-### Step 3: Compile Caffe for COMET
-
-First, modify the link_directories in **CMakeLists.txt** (line 73 & 74) to your SZ include ($SZ_HOME/install/include) and lib ($SZ_HOME/install/lib) location, respectively.
-
-```
-cd $CAFFE_HOME
-vim ./CMakeLists.txt
-```
-
-Then, modify the location to your sz configuration file in **conv_layer.cpp** (line 61) to $SZ_HOME/example/sz.config.
-
-```
-cd $CAFFE_HOME
-vim ./src/caffe/layers/conv_layer.cpp
-```
-
-Finally, follow the instructions in https://github.com/BVLC/caffe to install prerequisites, modify the configurations based on your system, and compile and install Caffe with CMake.
-
-```
-cd $CAFFE_HOME
-mkdir build && cd build
-cmake .. -DCMAKE_INSTALL_PREFIX:PATH=[INSTALL_DIR]
-make all
-make install
-make runtest
 ```
 
 ### Step 4: Training with COMET
