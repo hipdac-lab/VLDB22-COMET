@@ -10,7 +10,7 @@ To ease the use of COMET, we provide a docker image with the essential environme
 
 ### Step 1: Pull the docker image
 
-Assuming [docker](https://docs.docker.com/get-docker/) has been installed, please run the following command to pull our prepared image from DockerHub:
+Assuming [docker](https://docs.docker.com/get-docker/) has been installed, please run the following command to pull our prepared docker image (https://hub.docker.com/r/jinsian/caffe) from DockerHub:
 ```
 docker pull jinsian/caffe
 ```
