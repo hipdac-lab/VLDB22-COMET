@@ -1,0 +1,414 @@
+CPLUS_INCLUDE_PATH=/scratch/07418/USER/conda_local/envs/new_env/include
+TACC_GIT_BIN=/opt/apps/git/2.24.1/bin
+LMOD_FAMILY_COMPILER_VERSION=7.3.0
+TACC_GCC_LIB64=/opt/apps/gcc/7.3.0/lib64
+IBM_POWERAI_LICENSE_ACCEPT=yes
+TACC_CMAKE_BIN=/opt/apps/cmake/3.16.1/bin
+MANPATH=/usr/local/cuda-10.0/doc/man:/opt/ibm/spectrum_mpi/share/man:/opt/apps/gcc/7.3.0/share/man:/usr/local/man:/usr/share/man:/usr/X11R6/man:/usr/kerberos/man:/usr/man:/opt/apps/git/2.24.1/share/man::
+TACC_SPECTRUM_MPI_DIR=/opt/ibm/spectrum_mpi
+XDG_SESSION_ID=131355
+TACC_NCCL_INC=/opt/apps/cuda10_0/nccl/2.4.8/include
+_ModuleTable003_=PTYscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iY29uZGEiLH0sY3VkYT17WyJmbiJdPSIvb3B0L2FwcHMvbW9kdWxlZmlsZXMvY3VkYS8xMC4wLmx1YSIsWyJmdWxsTmFtZSJdPSJjdWRhLzEwLjAiLFsibG9hZE9yZGVyIl09OSxwcm9wVD17YXJjaD17WyJncHUiXT0xLH0sfSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJjdWRhLzEwLjAiLH0sZ2NjPXtbImZuIl09Ii9vcHQvYXBwcy9tb2R1bGVmaWxlcy9nY2MvNy4zLjAubHVhIixbImZ1bGxOYW1lIl09ImdjYy83LjMuMCIsWyJsb2FkT3JkZXIiXT03LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0i
+TACC_XALT_DIR=/opt/apps/xalt/xalt/
+HOSTNAME=login1.longhorn.tacc.utexas.edu
+TACC_NCCL_DIR=/opt/apps/cuda10_0/nccl/2.4.8
+__LMOD_REF_COUNT_MODULEPATH=/opt/apps/cuda10_0/modulefiles:1;/opt/apps/gcc7_3/spectrum_mpi10_3/modulefiles:1;/opt/apps/gcc7_3/modulefiles:1;/opt/apps/modulefiles:1;/opt/modulefiles:1
+TERM=xterm-256color
+SHELL=/bin/bash
+LMOD_ROOT=/opt/apps/lmod
+HISTSIZE=1000
+TACC_CUDA_DOC=/usr/local/cuda-10.0/doc
+XALT_EXECUTABLE_TRACKING=yes
+LMOD_SYSTEM_DEFAULT_MODULES=TACC
+SSH_CLIENT=98.146.229.136 59528 22
+CONDA_SHLVL=1
+CONDA_PROMPT_MODIFIER=(new_env) 
+TACC_SPECTRUM_MPI_LIB=/opt/ibm/spectrum_mpi/lib
+LD_PRELOAD=/opt/apps/xalt/xalt/lib64/libxalt_init.so
+__LMOD_REF_COUNT_COMPILER_PATH=/opt/apps/xalt/xalt/bin:1
+TACC_FAMILY_COMPILER_VERSION=7.3.0
+LMOD_PKG=/opt/apps/lmod/lmod
+FPATH=/opt/apps/lmod/lmod/init/ksh_funcs
+OLDPWD=/home/07418/USER/SC21_AD
+OMPI_FC=gfortran
+OMPI_MCA_routed=binomial
+LMOD_VERSION=8.4.16
+TACC_GCC_INC=/opt/apps/gcc/7.3.0/include
+SSH_TTY=/dev/pts/5
+TACC_SPECTRUM_MPI_INC=/opt/ibm/spectrum_mpi/include
+__LMOD_REF_COUNT_LOADEDMODULES=git/2.24.1:1;autotools/1.2:1;cmake/3.16.1:1;xalt/2.10.2:1;TACC:1;conda/4.8.3:1;gcc/7.3.0:1;spectrum_mpi/10.3.0:1;cuda/10.0:1;nccl/2.4.8:1
+TACC_CUDA_BIN=/usr/local/cuda-10.0/bin
+OPAL_PREFIX=
+USER=USER
+LD_LIBRARY_PATH=/opt/apps/cuda10_0/nccl/2.4.8/lib:/usr/local/cuda-10.0/lib64:/opt/ibmmath/essl/6.2/lib64:/opt/ibm/spectrum_mpi/lib:/opt/apps/gcc/7.3.0/lib64:/opt/apps/gcc/7.3.0/lib:/scratch/07418/USER/conda_local/envs/new_env/cuda/lib:::/scratch/07418/USER/conda_local/envs/new_env/lib
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+CONDA_EXE=/scratch/apps/conda/4.8.3/bin/conda
+TACC_XALT_BIN=/opt/apps/xalt/xalt/bin
+__LMOD_STACK_CONDA_PKGS_DIRS=L3NjcmF0Y2gvMDc0MTgvc2lhbmppbi9jb25kYV9sb2NhbC9wa2dzLC9zY3JhdGNoL2FwcHMvY29uZGEvNC44LjMvcGtncw==
+_ModuleTable004_=YWN0aXZlIixbInVzZXJOYW1lIl09ImdjYy83LjMuMCIsfSxnaXQ9e1siZm4iXT0iL29wdC9hcHBzL21vZHVsZWZpbGVzL2dpdC8yLjI0LjEubHVhIixbImZ1bGxOYW1lIl09ImdpdC8yLjI0LjEiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJnaXQiLH0sbmNjbD17WyJmbiJdPSIvb3B0L2FwcHMvY3VkYTEwXzAvbW9kdWxlZmlsZXMvbmNjbC8yLjQuOC5sdWEiLFsiZnVsbE5hbWUiXT0ibmNjbC8yLjQuOCIsWyJsb2FkT3JkZXIiXT0xMCxwcm9wVD17YXJjaD17WyJncHUiXT0xLH0sfSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJuY2NsIix9
+TACC_GIT_DIR=/opt/apps/git/2.24.1
+TACC_CUDA_LIB=/usr/local/cuda-10.0/lib64
+S_MPI_CC=gcc
+__LMOD_REF_COUNT__LMFILES_=/opt/apps/modulefiles/git/2.24.1.lua:1;/opt/apps/modulefiles/autotools/1.2.lua:1;/opt/apps/modulefiles/cmake/3.16.1.lua:1;/opt/apps/modulefiles/xalt/2.10.2.lua:1;/opt/apps/modulefiles/TACC.lua:1;/opt/apps/modulefiles/conda/4.8.3.lua:1;/opt/apps/modulefiles/gcc/7.3.0.lua:1;/opt/apps/gcc7_3/modulefiles/spectrum_mpi/10.3.0.lua:1;/opt/apps/modulefiles/cuda/10.0.lua:1;/opt/apps/cuda10_0/modulefiles/nccl/2.4.8.lua:1
+S_MPI_FC=gfortran
+_CE_CONDA=
+TACC_FAMILY_PYTHON=conda
+LMOD_FAMILY_MPI_VERSION=10.3.0
+TACC_FAMILY_NCCL_VERSION=2.4.8
+ARCHIVER=
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXtbIk1QSSJdPSJzcGVjdHJ1bV9tcGkiLFsiY29tcGlsZXIiXT0iZ2NjIixbIm5jY2wiXT0ibmNjbCIsWyJweXRob24iXT0iY29uZGEiLH0sbVQ9e1RBQ0M9e1siZm4iXT0iL29wdC9hcHBzL21vZHVsZWZpbGVzL1RBQ0MubHVhIixbImZ1bGxOYW1lIl09IlRBQ0MiLFsibG9hZE9yZGVyIl09NSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJUQUNDIix9LGF1dG90b29scz17WyJmbiJdPSIvb3B0L2FwcHMvbW9kdWxlZmlsZXMvYXV0b3Rvb2xzLzEuMi5s
+TACC_SYSTEM=longhorn
+MAIL=/var/spool/mail/USER
+PATH=/opt/apps/xalt/xalt/bin:/usr/local/cuda-10.0/bin:/opt/ibm/spectrum_mpi/bin:/opt/apps/gcc/7.3.0/bin:/scratch/07418/USER/conda_local/envs/new_env/bin:/scratch/apps/conda/4.8.3/condabin:/opt/apps/cmake/3.16.1/bin:/opt/apps/autotools/1.2/bin:/opt/apps/git/2.24.1/bin:/usr/local/bin:/bin:/usr/bin:/opt/ibutils/bin:/usr/lpp/mmfs/bin:.
+LMOD_FAMILY_NCCL=nccl
+TACC_GIT_LIB=/opt/apps/git/2.24.1/lib
+C_INCLUDE_PATH=/scratch/07418/USER/conda_local/envs/new_env/include
+CONDA_PREFIX=/scratch/07418/USER/conda_local/envs/new_env
+INPUTRC=/etc/inputrc
+PWD=/home/07418/USER/SC21_AD/Author-Kit
+TACC_FAMILY_PYTHON_VERSION=4.8.3
+_LMFILES_=/opt/apps/modulefiles/git/2.24.1.lua:/opt/apps/modulefiles/autotools/1.2.lua:/opt/apps/modulefiles/cmake/3.16.1.lua:/opt/apps/modulefiles/xalt/2.10.2.lua:/opt/apps/modulefiles/TACC.lua:/opt/apps/modulefiles/conda/4.8.3.lua:/opt/apps/modulefiles/gcc/7.3.0.lua:/opt/apps/gcc7_3/modulefiles/spectrum_mpi/10.3.0.lua:/opt/apps/modulefiles/cuda/10.0.lua:/opt/apps/cuda10_0/modulefiles/nccl/2.4.8.lua
+CONDA_PKGS_DIRS=/scratch/07418/USER/conda_local/pkgs,/scratch/apps/conda/4.8.3/pkgs
+LANG=en_US.UTF-8
+TACC_GCC_BIN=/opt/apps/gcc/7.3.0/bin
+MODULEPATH=/opt/apps/cuda10_0/modulefiles:/opt/apps/gcc7_3/spectrum_mpi10_3/modulefiles:/opt/apps/gcc7_3/modulefiles:/opt/apps/modulefiles:/opt/modulefiles
+_ModuleTable_Sz_=6
+LOADEDMODULES=git/2.24.1:autotools/1.2:cmake/3.16.1:xalt/2.10.2:TACC:conda/4.8.3:gcc/7.3.0:spectrum_mpi/10.3.0:cuda/10.0:nccl/2.4.8
+__BASHRC_SOURCED__=1
+TACC_VEC_FLAGS=-march=haswell -mtune=haswell
+PS1=(new_env) login1.longhorn(\!)\$ 
+_ModuleTable005_=LHNwZWN0cnVtX21waT17WyJmbiJdPSIvb3B0L2FwcHMvZ2NjN18zL21vZHVsZWZpbGVzL3NwZWN0cnVtX21waS8xMC4zLjAubHVhIixbImZ1bGxOYW1lIl09InNwZWN0cnVtX21waS8xMC4zLjAiLFsibG9hZE9yZGVyIl09OCxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJzcGVjdHJ1bV9tcGkiLH0seGFsdD17WyJmbiJdPSIvb3B0L2FwcHMvbW9kdWxlZmlsZXMveGFsdC8yLjEwLjIubHVhIixbImZ1bGxOYW1lIl09InhhbHQvMi4xMC4yIixbImxvYWRPcmRlciJdPTQscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ieGFsdCIsfSx9LG1wYXRoQT17Ii9vcHQv
+LMOD_FAMILY_PYTHON_VERSION=4.8.3
+GIT_TEMPLATE_DIR=/opt/apps/git/2.24.1/share/git-core/templates
+LMOD_CMD=/opt/apps/lmod/lmod/libexec/lmod
+TACC_CUDA_INC=/usr/local/cuda-10.0/include
+CONDA_ENVS_PATH=/scratch/07418/USER/conda_local/envs:/scratch/apps/conda/4.8.3/envs
+_CE_M=
+__LMOD_STACK_CONDA_ENVS_PATH=L3NjcmF0Y2gvMDc0MTgvc2lhbmppbi9jb25kYV9sb2NhbC9lbnZzOi9zY3JhdGNoL2FwcHMvY29uZGEvNC44LjMvZW52cw==
+LMOD_FAMILY_PYTHON=conda
+TACC_SPECTRUM_MPI_BIN=/opt/ibm/spectrum_mpi/bin
+TACC_AUTOTOOLS_DIR=/opt/apps/autotools/1.2
+__LMOD_SET_FPATH=1
+SHLVL=1
+HOME=/home/07418/USER
+TACC_NCCL_LIB=/opt/apps/cuda10_0/nccl/2.4.8/lib
+OMPI_CC=gcc
+TACC_FAMILY_COMPILER=gcc
+__LMOD_REF_COUNT_PATH=/opt/apps/xalt/xalt/bin:1;/usr/local/cuda-10.0/bin:1;/opt/ibm/spectrum_mpi/bin:1;/opt/apps/gcc/7.3.0/bin:1;/scratch/07418/USER/conda_local/envs/new_env/bin:1;/scratch/apps/conda/4.8.3/condabin:1;/opt/apps/cmake/3.16.1/bin:1;/opt/apps/autotools/1.2/bin:1;/opt/apps/git/2.24.1/bin:1;/usr/local/bin:1;/bin:1;/usr/bin:1;/opt/ibutils/bin:1;/usr/lpp/mmfs/bin:1;.:1
+TACC_DOMAIN=longhorn
+TACC_CUDA_DIR=/usr/local/cuda-10.0
+_ModuleTable002_=dWEiLFsiZnVsbE5hbWUiXT0iYXV0b3Rvb2xzLzEuMiIsWyJsb2FkT3JkZXIiXT0yLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImF1dG90b29scyIsfSxjbWFrZT17WyJmbiJdPSIvb3B0L2FwcHMvbW9kdWxlZmlsZXMvY21ha2UvMy4xNi4xLmx1YSIsWyJmdWxsTmFtZSJdPSJjbWFrZS8zLjE2LjEiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJjbWFrZSIsfSxjb25kYT17WyJmbiJdPSIvb3B0L2FwcHMvbW9kdWxlZmlsZXMvY29uZGEvNC44LjMubHVhIixbImZ1bGxOYW1lIl09ImNvbmRhLzQuOC4zIixbImxvYWRPcmRlciJd
+__LMOD_REF_COUNT_INCLUDE=/usr/local/cuda-10.0/include:1;/opt/apps/gcc/7.3.0/include:1
+GCC_LIB=/opt/apps/gcc/7.3.0/lib64
+BASH_ENV=/etc/tacc/tacc_functions
+TACC_GCC_DIR=/opt/apps/gcc/7.3.0
+S_MPI_F77=gfortran
+CONDA_PYTHON_EXE=/scratch/apps/conda/4.8.3/bin/python
+XALT_SAMPLING=yes
+TACC_FAMILY_MPI=spectrum_mpi
+MPI_ROOT=/opt/ibm/spectrum_mpi
+LOGNAME=USER
+LMOD_SETTARG_TITLE_BAR=yes
+SSH_CONNECTION=98.146.229.136 59528 129.114.55.11 22
+LC_CTYPE=UTF-8
+S_MPI_F90=gfortran
+MODULESHOME=/opt/apps/lmod/lmod
+OMPI_CXX=g++
+CONDA_DEFAULT_ENV=new_env
+__LMOD_STACK_IBM_POWERAI_LICENSE_ACCEPT=eWVz
+OMP_NUM_THREADS=1
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/apps/cuda10_0/nccl/2.4.8/lib:1;/usr/local/cuda-10.0/lib64:1;/opt/ibmmath/essl/6.2/lib64:1;/opt/ibm/spectrum_mpi/lib:1;/opt/apps/gcc/7.3.0/lib64:1;/opt/apps/gcc/7.3.0/lib:1;/scratch/07418/USER/conda_local/envs/new_env/cuda/lib:1
+COMPILER_PATH=/opt/apps/xalt/xalt/bin
+LMOD_SETTARG_FULL_SUPPORT=yes
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+PROMPT_COMMAND=${X_SET_TITLE_BAR:-:} "$USER@${SHOST}:${PWD/#$HOME/~}"
+__Init_Default_Modules=1
+LMOD_FAMILY_COMPILER=gcc
+__LMOD_REF_COUNT_LD_PRELOAD=/opt/apps/xalt/xalt/lib64/libxalt_init.so:1
+TACC_FAMILY_MPI_VERSION=10.3.0
+TACC_AUTOTOOLS_BIN=/opt/apps/autotools/1.2/bin
+ARCHIVE=
+XDG_RUNTIME_DIR=/run/user/867173
+LMOD_FAMILY_NCCL_VERSION=2.4.8
+TACC_GCC_LIB=/opt/apps/gcc/7.3.0/lib
+_ModuleTable006_=YXBwcy9jdWRhMTBfMC9tb2R1bGVmaWxlcyIsIi9vcHQvYXBwcy9nY2M3XzMvc3BlY3RydW1fbXBpMTBfMy9tb2R1bGVmaWxlcyIsIi9vcHQvYXBwcy9nY2M3XzMvbW9kdWxlZmlsZXMiLCIvb3B0L2FwcHMvbW9kdWxlZmlsZXMiLCIvb3B0L21vZHVsZWZpbGVzIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9vcHQvYXBwcy9tb2R1bGVmaWxlczovb3B0L21vZHVsZWZpbGVzIix9
+S_MPI_CXX=g++
+INCLUDE=/usr/local/cuda-10.0/include:/opt/apps/gcc/7.3.0/include
+__LMOD_REF_COUNT_MANPATH=/usr/local/cuda-10.0/doc/man:1;/opt/ibm/spectrum_mpi/share/man:1;/opt/apps/gcc/7.3.0/share/man:1;/usr/local/man:1;/usr/share/man:1;/usr/X11R6/man:1;/usr/kerberos/man:1;/usr/man:1;/opt/apps/git/2.24.1/share/man:1
+LMOD_DIR=/opt/apps/lmod/lmod/libexec
+TACC_FAMILY_NCCL=nccl
+__LMOD_Priority_PATH=/opt/apps/xalt/xalt/bin:-100
+TACC_MPI_GETMODE=spectrum_ssh
+LMOD_FAMILY_MPI=spectrum_mpi
+GIT_EXEC_PATH=/opt/apps/git/2.24.1/libexec/git-core
+SCRATCH=/scratch/07418/USER
+TACC_CMAKE_DIR=/opt/apps/cmake/3.16.1
+BASH_FUNC_conda()=() {  if [ "$#" -lt 1 ]; then
+ "$CONDA_EXE" $_CE_M $_CE_CONDA;
+ else
+ \local cmd="$1";
+ shift;
+ case "$cmd" in 
+ activate | deactivate)
+ __conda_activate "$cmd" "$@"
+ ;;
+ install | update | upgrade | remove | uninstall)
+ CONDA_INTERNAL_OLDPATH="${PATH}";
+ __add_sys_prefix_to_path;
+ "$CONDA_EXE" $_CE_M $_CE_CONDA "$cmd" "$@";
+ \local t1=$?;
+ PATH="${CONDA_INTERNAL_OLDPATH}";
+ if [ $t1 = 0 ]; then
+ __conda_reactivate;
+ else
+ return $t1;
+ fi
+ ;;
+ *)
+ CONDA_INTERNAL_OLDPATH="${PATH}";
+ __add_sys_prefix_to_path;
+ "$CONDA_EXE" $_CE_M $_CE_CONDA "$cmd" "$@";
+ \local t1=$?;
+ PATH="${CONDA_INTERNAL_OLDPATH}";
+ return $t1
+ ;;
+ esac;
+ fi
+}
+BASH_FUNC_module()=() {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+ case "$-" in 
+ *v*x*)
+ __lmod_sh_dbg='vx'
+ ;;
+ *v*)
+ __lmod_sh_dbg='v'
+ ;;
+ *x*)
+ __lmod_sh_dbg='x'
+ ;;
+ esac;
+ fi;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ set +$__lmod_sh_dbg;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ fi;
+ eval $($LMOD_CMD bash "$@") && eval $(${LMOD_SETTARG_CMD:-:} -s sh);
+ __lmod_my_status=$?;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ echo "Shell debugging restarted" 1>&2;
+ set -$__lmod_sh_dbg;
+ unset __lmod_sh_dbg;
+ fi;
+ return $__lmod_my_status
+}
+BASH_FUNC___add_sys_prefix_to_path()=() {  if [ -n "${_CE_CONDA}" ] && [ -n "${WINDIR+x}" ]; then
+ SYSP=$(\dirname "${CONDA_EXE}");
+ else
+ SYSP=$(\dirname "${CONDA_EXE}");
+ SYSP=$(\dirname "${SYSP}");
+ fi;
+ if [ -n "${WINDIR+x}" ]; then
+ PATH="${SYSP}/bin:${PATH}";
+ PATH="${SYSP}/Scripts:${PATH}";
+ PATH="${SYSP}/Library/bin:${PATH}";
+ PATH="${SYSP}/Library/usr/bin:${PATH}";
+ PATH="${SYSP}/Library/mingw-w64/bin:${PATH}";
+ PATH="${SYSP}:${PATH}";
+ else
+ PATH="${SYSP}/bin:${PATH}";
+ fi;
+ \export PATH
+}
+BASH_FUNC___conda_activate()=() {  if [ -n "${CONDA_PS1_BACKUP:+x}" ]; then
+ PS1="$CONDA_PS1_BACKUP";
+ \unset CONDA_PS1_BACKUP;
+ fi;
+ \local cmd="$1";
+ shift;
+ \local ask_conda;
+ CONDA_INTERNAL_OLDPATH="${PATH}";
+ __add_sys_prefix_to_path;
+ ask_conda="$(PS1="$PS1" "$CONDA_EXE" $_CE_M $_CE_CONDA shell.posix "$cmd" "$@")" || \return $?;
+ rc=$?;
+ PATH="${CONDA_INTERNAL_OLDPATH}";
+ \eval "$ask_conda";
+ if [ $rc != 0 ]; then
+ \export PATH;
+ fi;
+ __conda_hashr
+}
+BASH_FUNC___conda_hashr()=() {  if [ -n "${ZSH_VERSION:+x}" ]; then
+ \rehash;
+ else
+ if [ -n "${POSH_VERSION:+x}" ]; then
+ :;
+ else
+ \hash -r;
+ fi;
+ fi
+}
+BASH_FUNC___conda_reactivate()=() {  \local ask_conda;
+ CONDA_INTERNAL_OLDPATH="${PATH}";
+ __add_sys_prefix_to_path;
+ ask_conda="$(PS1="$PS1" "$CONDA_EXE" $_CE_M $_CE_CONDA shell.posix reactivate)" || \return $?;
+ PATH="${CONDA_INTERNAL_OLDPATH}";
+ \eval "$ask_conda";
+ __conda_hashr
+}
+BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+_=/bin/env
+++ lsb_release -a
+-bash: lsb_release: command not found
+++ uname -a
+Linux login1.longhorn.tacc.utexas.edu 4.14.0-115.10.1.el7a.ppc64le #1 SMP Wed Jun 26 09:32:17 UTC 2019 ppc64le ppc64le ppc64le GNU/Linux
+++ lscpu
+Architecture:          ppc64le
+Byte Order:            Little Endian
+CPU(s):                160
+On-line CPU(s) list:   0-159
+Thread(s) per core:    4
+Core(s) per socket:    20
+Socket(s):             2
+NUMA node(s):          6
+Model:                 2.2 (pvr 004e 1202)
+Model name:            POWER9, altivec supported
+CPU max MHz:           3800.0000
+CPU min MHz:           2300.0000
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              512K
+L3 cache:              10240K
+NUMA node0 CPU(s):     0-79
+NUMA node8 CPU(s):     80-159
+NUMA node252 CPU(s):   
+NUMA node253 CPU(s):   
+NUMA node254 CPU(s):   
+NUMA node255 CPU(s):   
+++ cat /proc/meminfo
+MemTotal:       329841408 kB
+MemFree:        294424384 kB
+MemAvailable:   314751808 kB
+Buffers:            5120 kB
+Cached:         22858624 kB
+SwapCached:            0 kB
+Active:          9866176 kB
+Inactive:       14549376 kB
+Active(anon):    4615424 kB
+Inactive(anon):  1193216 kB
+Active(file):    5250752 kB
+Inactive(file): 13356160 kB
+Unevictable:     1048576 kB
+Mlocked:         1048576 kB
+SwapTotal:       4092864 kB
+SwapFree:        4092864 kB
+Dirty:               256 kB
+Writeback:             0 kB
+AnonPages:       2600960 kB
+Mapped:           507200 kB
+Shmem:           4256832 kB
+Slab:            6991936 kB
+SReclaimable:    3233152 kB
+SUnreclaim:      3758784 kB
+KernelStack:       39536 kB
+PageTables:        31744 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    169013568 kB
+Committed_AS:    8055168 kB
+VmallocTotal:   549755813888 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:       13434880 kB
+CmaFree:        13434880 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+++ inxi -F -c0
+-bash: inxi: command not found
+++ lsblk -a
+lsblk: /scratch/07418/sianjin/conda_local/envs/new_env/lib/libuuid.so.1: no version information available (required by /lib64/libblkid.so.1)
+NAME    MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINT
+sdb       8:16   1 931.5G  0 disk  
+|-sdb4    8:20   1     1K  0 part  
+|-sdb2    8:18   1   3.9G  0 part  
+| `-md4   9:4    0   3.9G  0 raid1 [SWAP]
+|-sdb5    8:21   1 926.6G  0 part  
+| `-md1   9:1    0 926.5G  0 raid1 /
+|-sdb3    8:19   1  1000M  0 part  
+| `-md0   9:0    0   999M  0 raid1 /boot
+`-sdb1    8:17   1     8M  0 part  
+loop0     7:0    0         1 loop  
+sda       8:0    1 931.5G  0 disk  
+|-sda4    8:4    1     1K  0 part  
+|-sda2    8:2    1   3.9G  0 part  
+| `-md4   9:4    0   3.9G  0 raid1 [SWAP]
+|-sda5    8:5    1 926.6G  0 part  
+| `-md1   9:1    0 926.5G  0 raid1 /
+|-sda3    8:3    1  1000M  0 part  
+| `-md0   9:0    0   999M  0 raid1 /boot
+`-sda1    8:1    1     8M  0 part  
+++ lsscsi -s
+[0:0:0:0]    disk    ATA      ST1000NX0313     BE35  /dev/sda   1.00TB
+[1:0:0:0]    disk    ATA      ST1000NX0313     BE35  /dev/sdb   1.00TB
+++ module list
+++ '[' -z '' ']'
+++ case "$-" in
+++ __lmod_sh_dbg=x
+++ '[' -n x ']'
+++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+Currently Loaded Modules:
+  1) git/2.24.1      5) TACC                  9) cuda/10.0  (g)
+  2) autotools/1.2   6) conda/4.8.3          10) nccl/2.4.8 (g)
+  3) cmake/3.16.1    7) gcc/7.3.0
+  4) xalt/2.10.2     8) spectrum_mpi/10.3.0
+
+  Where:
+   g:  built for GPU
+
+ 
+
+Shell debugging restarted
+++ unset __lmod_sh_dbg
+++ return 0
+++ nvidia-smi
+Fri Apr  9 22:54:54 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 440.33.01    Driver Version: 440.33.01    CUDA Version: 10.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla V100-SXM2...  On   | 00000004:04:00.0 Off |                    0 |
+| N/A   28C    P0    34W / 300W |      0MiB / 16160MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla V100-SXM2...  On   | 00000004:05:00.0 Off |                    0 |
+| N/A   30C    P0    35W / 300W |      0MiB / 16160MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla V100-SXM2...  On   | 00000035:03:00.0 Off |                    0 |
+| N/A   24C    P0    35W / 300W |      0MiB / 16160MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla V100-SXM2...  On   | 00000035:04:00.0 Off |                    0 |
+| N/A   29C    P0    36W / 300W |      0MiB / 16160MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+++ cat
+++ lshw -short -quiet -sanitize
+-bash: lshw: command not found
+++ lspci
+-bash: lspci: command not found
