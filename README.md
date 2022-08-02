@@ -1,6 +1,6 @@
 # COMET: A Novel Memory-Efficient Deep Learning Training Framework by Using Error-Bounded Lossy Compression
 
-By Sian Jin [sian.jin@wsu.edu], Chengming Zhang [chengming.zhang@wsu.edu], Xintong Jiang [xintong.jiang@mail.mcgill.ca], Yunhe Feng [yunhe@uw.edu], Hui Guan [huiguan@cs.umass.edu], Guanpeng Li [guanpeng- li@uiowa.edu], Shuaiwen Leon Song [shuaiwen.song@sydney.edu.au], and Dingwen Tao [dingwen.tao@wsu.edu].
+By [Sian Jin](sian.jin@wsu.edu), [Chengming Zhang](chengming.zhang@wsu.edu), [Xintong Jiang](xintong.jiang@mail.mcgill.ca), [Yunhe Feng](yunhe@uw.edu), [Hui Guan](huiguan@cs.umass.edu), [Guanpeng Li](guanpeng-li@uiowa.edu), [Shuaiwen Leon Song](shuaiwen.song@sydney.edu.au), and [Dingwen Tao](dingwen.tao@wsu.edu).
 
 COMET is modified from [Caffe](https://github.com/BVLC/caffe) framework to enable memory-efficient deep learning training by using error-bounded lossy compressor [SZ](https://github.com/szcompressor/SZ). We focused on modifying the layer function of Caffe [1] to support SZ [2] for compressing activation data.
 
